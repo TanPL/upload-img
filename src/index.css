@@ -58,3 +58,20 @@ code {
   margin: auto;
   margin-top: 20%;
 }
+
+.multiselect {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.multiselect.selected {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+.left-panel {
+  margin-left: 10%;
+  padding-right: 10%;
+  border-right: 1px solid grey;
+}
