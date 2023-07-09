@@ -5,6 +5,8 @@ function App() {
   const [file, setFile] = useState(localStorage.getItem("uploadedImage"));
   const [activeTab, setActiveTab] = useState("input");
 
+  const categoryList = ["Collectibles", "Accessories", "T-shirt"];
+
   function handleChange(e) {
     const selectedFile = e.target.files[0];
     const reader = new FileReader();
